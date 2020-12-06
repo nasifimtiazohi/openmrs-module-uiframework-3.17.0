@@ -9,7 +9,7 @@
     <description>OpenMRS's new custom UI Framework, built on top of Spring MVC, and leveraging Groovy templates for
         views.
     </description>
-    <url />
+    <url/>
 
     <developers>
         <developer>
@@ -122,7 +122,7 @@
             <dependency>
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy</artifactId>
-                <version>1.8.3</version>
+                <version>2.4.21</version>
                 <type>jar</type>
                 <scope>provided</scope>
             </dependency>
@@ -300,7 +300,7 @@
                             <vulas.reach.timeout>60</vulas.reach.timeout>
 
                             
-                            <vulas.report.exceptionExcludeBugs />
+                            <vulas.report.exceptionExcludeBugs/>
                             <vulas.report.reportDir>${project.build.directory}/vulas/report</vulas.report.reportDir>
                         </layeredConfiguration>
                     </configuration>
